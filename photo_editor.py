@@ -17,7 +17,7 @@ while True:
         break
     except:
         sleep(1)
-
+ 
 script_path = os.path.abspath(__file__)
 dir_path = os.path.dirname(script_path)
 image_name = "face.png"
